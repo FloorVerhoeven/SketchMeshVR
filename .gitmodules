@@ -1,0 +1,6 @@
+[submodule "libiglVR"]
+	path = libiglVR
+	url = https://github.com/FloorVerhoeven/libiglVR.git
+[submodule "libigl"]
+	path = libigl
+	url = https://github.com/FloorVerhoeven/libigl_old.git
