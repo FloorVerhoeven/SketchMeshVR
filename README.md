@@ -1,15 +1,15 @@
-# Project Title
+# RodMesh: Two-handed 3D Surface Modeling in Virtual Reality
 
-Master thesis on a sketch-based 3D modeling system for VR.
 
 ## Getting Started
-This git repository contains both a VR (VR-SketchMesh) and non-VR (SketchMesh) version of the sketch-based 3D modeling software. SketchMesh depends on the included version of libigl and VR-SketchMesh depends on the specially adapted version of libigl called libiglVR plus the OculusSDK, OVRAvatarSDK and OVRPlatformSDK. 
+This git repository contains both a VR (SketchMeshVR) and non-VR (SketchMesh) version of the sketch-based 3D modeling software. SketchMeshVR depends on the specially adapted version of libigl called libiglVR plus the OculusSDK, OVRAvatarSDK and OVRPlatformSDK. 
+The non-VR SketchMesh also depends on an adapted version of libigl, which is not publicly available. If you would like to have access to this, please reach out to me or create an issue with the request.
 
 ### Prerequisites
 
 The VR version is tested on Windows 10 with Microsoft Visual Studio 15 2017 (with Visual C++), the non-VR version is additionally also tested on OS X El Capitan with clang 8.0.0.
 
-The Oculus Setup software should be installed on the PC.
+The Oculus Setup software should be installed on your PC in order for this project to work.
 
 ### Installing
 
@@ -18,8 +18,6 @@ Clone the repository including submodules (this contains an adapted version of l
 ```
 git clone --recursive https://github.com/FloorVerhoeven/SketchMeshVR.git
 ```
-
-For the VR version, a ready-made .exe is included in bin_SketchMeshVR/bin. Simply double click it to run. If you prefer to build it yourself, follow the instructions below.
 
 
 Create a build folder in the "SketchMesh" and/or "VR-SketchMesh" folder.
@@ -35,7 +33,7 @@ make && ./SketchMesh_bin
 ```
 This will launch the application.
 
-## Usage of VR-SketchMesh
+## Usage of SketchMeshVR
 At all times, the control curves are overlayed over the mesh. Sharp curves are indicated in red, and smooth curves are displayed in blue.
 All editing actions are performed by pressing and holding down the **TRIGGER** button (at your index finger) of the right controller.
 
