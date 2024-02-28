@@ -1,0 +1,7 @@
+[submodule "libigl"]
+	path = libigl
+	url = https://github.com/FloorVerhoeven/libigl_old.git
+	branch = master
+[submodule "libiglVR"]
+	path = libiglVR
+	url = https://github.com/FloorVerhoeven/libiglVR.git
